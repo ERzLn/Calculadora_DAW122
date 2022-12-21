@@ -10,7 +10,7 @@ public class Calculadora {
     //Método para recoger las variables de entrada
     public static void pideNumeros() {
         Scanner scanner = new Scanner(System.in);
-        int numero1 = 0, numero2 = 0; //Variables de entrada
+        float numero1 = 0, numero2 = 0; //Variables de entrada
         System.out.println("Introduce el primer número:");
         numero1 = scanner.nextInt();
 
@@ -21,7 +21,7 @@ public class Calculadora {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion = -1; //opción del menú
-        int numero1 = 0, numero2 = 0; //Variables de entrada
+        float numero1 = 0, numero2 = 0; //Variables de entrada
         System.out.println("¡¡HOLA SOY ELOY RUIZ!!");
         
 
